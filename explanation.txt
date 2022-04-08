@@ -1,0 +1,4 @@
+I implemented the png decoder. React client submits an image and Node.js server analyzes the image and responds with the most frequent pixels.
+For now, the decoder works only with particular png images. And for the implementation I refered to tutorial: https://medium.com/achiev/understanding-and-decoding-png-format-example-in-ts-b31fdde1151b
+Also, I tried to implement JPEG decoder, and sucessfully decoded all the constituent parts of it, but the complexity of turning the encoded Huffman code
+into its decoded DCT counterparts has appeared to me to be beyond the scope of the test task, thus I left it as it is. It is the imageParser.js file
